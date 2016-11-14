@@ -1,0 +1,31 @@
+{
+  "name": "js-spy-scroll",
+  "description": "Jung-sun's SPY Scroll",
+  "main": "index.js",
+  "authors": [
+    "Jung-sun Park"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "spy",
+    "scroll"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  },
+  "install": {
+    "path": {
+      "css": "static/css",
+      "js": "static/js"
+    }
+  }
+}

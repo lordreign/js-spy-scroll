@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>JS Page Navigation</title>
+	<meta content="width=device-width" name="viewport">
+	<link rel="stylesheet" type="text/css" href="./static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/js-spy-scroll.css">
+</head>
+<body>
+<div class="wrap">
+	<div id="header">Header</div>
+	<div id="navi">
+		<a href="#header" class="on">HOME</a>
+		<a href="#section1">Section1</a>
+		<a href="#section2">Section2</a>
+		<a href="#section3">Section3</a>
+		<a href="https://google.com" class="js-page-navi-external">External Link</a> 
+	</div>
+	<div class="section" id="section1">
+		<h2>Section1</h2>
+	</div>
+	<div class="section" id="section2">
+		<h2>Section2</h2>
+	</div>
+	<div class="section jspn-last-section" id="section3">
+		<h2>Section3</h2>
+	</div>
+</div>
+<script type="text/javascript" src="./static/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="./static/js/js-spy-scroll/js-spy-scroll.js"></script>
+<script type="text/javascript">
+(function() {
+	$('#navi').jsSpyScroll({
+		scrollSpeed: 1000,
+		top: {
+			text:'TOP!'
+		}
+	});
+})()
+</script>
+</body>
+</html>

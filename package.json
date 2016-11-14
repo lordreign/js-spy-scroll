@@ -1,0 +1,24 @@
+{
+  "name": "js-spy-scroll",
+  "version": "1.0.0",
+  "description": "Jung-sun's SPY Scroll",
+  "main": "static/js/js/js-spy-scroll/js-spy-scroll.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spy",
+    "scroll"
+  ],
+  "author": "Jung-sun Park",
+  "license": "MIT"
+}
